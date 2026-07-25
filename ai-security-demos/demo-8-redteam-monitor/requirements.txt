@@ -1,0 +1,8 @@
+openai>=1.40.0
+python-dotenv>=1.0.0
+httpx>=0.27.0
+pytest>=8.0.0
+# optional tracing
+langfuse>=2.0.0
+# optional red-team CLI (also: npm i -g promptfoo / npx promptfoo)
+# garak>=0.9.0

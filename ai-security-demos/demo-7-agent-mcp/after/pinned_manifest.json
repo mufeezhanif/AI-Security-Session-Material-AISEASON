@@ -1,0 +1,19 @@
+{
+  "manifest_hash": "43474eb2e60ed0463753091d3875300bf48c7f9c76270bfbe439cbc4dd4ffd37",
+  "descriptions": {
+    "get_weather": "Get a short weather stub for a city. Args: city (string).",
+    "summarize": "Summarize short text. Args: text (string)."
+  },
+  "allowed_tools": [
+    "get_weather",
+    "summarize"
+  ],
+  "scopes": {
+    "get_weather": [
+      "weather.read"
+    ],
+    "summarize": [
+      "text.summarize"
+    ]
+  }
+}

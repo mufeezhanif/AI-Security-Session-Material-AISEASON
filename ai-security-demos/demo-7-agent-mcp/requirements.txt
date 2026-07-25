@@ -1,0 +1,4 @@
+openai>=1.40.0
+python-dotenv>=1.0.0
+# Optional: official MCP SDK (demo uses an in-process MCP-shaped sim by default)
+# mcp>=1.0.0
